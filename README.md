@@ -32,23 +32,26 @@ A drowsiness detection system using facial landmarks and hand detection to monit
   ```sh
    pip install opencv-python numpy mediapipe pygame matplotlib
    ```
-Usage
+
+## Usage
+
 Run the drowsiness detection script:
-
-
-python drowsiness_detection_using_deep_learning.py
+   ```sh
+   python drowsiness_detection_using_deep_learning.py
+   ```
 The system will start monitoring your face for signs of drowsiness.
+* Press 's' to save a snapshot of the current frame.
+* Press 'Esc' to exit the program.
 
-Press 's' to save a snapshot of the current frame.
+## Files
 
-Press 'Esc' to exit the program.
+* `drowsiness_detection_using_deep_learning.py`: Main script for drowsiness detection.
+* `ringg.mp3`: Ringtone file for sound alert.
+* `flowchart.png`: Flowchart of the workflow.
+* `logs/events.csv`: Log file for drowsiness events.
+* `logs/enhanced_events_plot.png`: Plot of drowsiness states over time.
+* `snapshots/snapshot_20241010-165027.jpg`: Example snapshot of facial features.
 
-Files
-drowsiness_detection_using_deep_learning.py: Main script for drowsiness detection.
-ringg.mp3: Ringtone file for sound alert.
-workflow-flowchart.png: Flowchart of the workflow.
-logs/events.csv: Log file for drowsiness events.
-logs/enhanced_events_plot.png: Plot of drowsiness states over time.
-snapshots/snapshot_20241010-165027(facial-features).jpg: Example snapshot of facial features.
-Contributing
+## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
