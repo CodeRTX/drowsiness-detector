@@ -26,12 +26,12 @@ A drowsiness detection system using facial landmarks and hand detection to monit
 1. Clone the repository:
    ```sh
    git clone https://github.com/yourusername/drowsiness-detector.git
-   cd drowsiness-detector```
-
+   cd drowsiness-detector
+   ```
 2. Install the required packages:
   ```sh
-  pip install opencv-python numpy mediapipe pygame matplotlib
-
+   pip install opencv-python numpy mediapipe pygame matplotlib
+   ```
 Usage
 Run the drowsiness detection script:
 
