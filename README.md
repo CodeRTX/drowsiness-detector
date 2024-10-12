@@ -13,7 +13,7 @@ A drowsiness detection system using facial landmarks and hand detection to monit
 
 ## Requirements
 
-- Python 3.x
+- Python 3.12.7
 - OpenCV
 - NumPy
 - Mediapipe
@@ -55,3 +55,7 @@ The system will start monitoring your face for signs of drowsiness.
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+This project is licensed under the APACHE 2.0 License.
