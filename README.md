@@ -43,6 +43,11 @@ The system will start monitoring your face for signs of drowsiness.
 * Press 's' to save a snapshot of the current frame.
 * Press 'Esc' to exit the program.
 
+## Real-time Demonstration
+
+Below is an image showcasing the drowsiness detection system in action:
+![Drowsiness Detection Features](snapshots/snapshot_20241010-165027.jpg)
+
 ## Files
 
 * `drowsiness_detection_using_deep_learning.py`: Main script for drowsiness detection.
