@@ -46,6 +46,7 @@ The system will start monitoring your face for signs of drowsiness.
 ## Real-time Demonstration
 
 Below is an image showcasing the drowsiness detection system in action:
+
 ![Drowsiness Detection Features](snapshots/snapshot_20241010-165027.jpg)
 
 ## Files
