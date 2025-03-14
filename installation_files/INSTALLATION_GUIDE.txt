@@ -1,1 +1,48 @@
+Creating and Managing a Virtual Environment for Your Project
+----------------------------------------------------------------
 
+## Introduction
+
+A virtual environment is an isolated Python environment that allows you to manage dependencies for a specific project without affecting the global Python installation. This is particularly useful for avoiding conflicts between different versions of packages required by various projects.
+
+## Steps to Create and Manage a Virtual Environment
+
+1. Create a Virtual Environment
+To create a virtual environment, you can use the venv module that comes with Python. Open your terminal or command prompt and run the following command:
+`python -m venv myenv`
+This command creates a new directory named 'myenv' containing the virtual environment.
+
+2. Activate the Virtual Environment
+Before you can install packages or run your project, you need to activate the virtual environment. The activation command differs depending on your operating system.
+On Windows: `myenv\Scripts\activate`
+On macOS/Linux: `source myenv/bin/activate`
+After activation, your terminal prompt will change to indicate that you are now working within the virtual environment.
+
+3. Install Required Packages
+
+4. Verify the Installation
+To verify that the packages have been installed correctly, the following command can be used: `pip check`
+
+5. Deactivate the Virtual Environment
+When you are done working in the virtual environment, you can deactivate it by running the following command: `deactivate`
+This command will return you to the global Python environment.
+
+
+Installation Guide for Drowsiness Detector
+----------------------------------------------------------------
+
+For easy installation of modules and to avoid manual dependency management, pre-built dependency files have been provided in the `installation_files` folder.
+This can be done in two ways (either is fine):
+
+
+
+1. A `.whl` file (wheel file):
+```bash
+	cd installation_files
+	pip install drowsiness_detector-0.1-py3.whl
+```
+2. A `requirements.txt` file:
+```bash
+	cd installation_files
+	pip install -r requirements.txt
+```
