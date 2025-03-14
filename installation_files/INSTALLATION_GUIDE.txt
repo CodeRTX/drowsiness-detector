@@ -34,8 +34,6 @@ Installation Guide for Drowsiness Detector
 For easy installation of modules and to avoid manual dependency management, pre-built dependency files have been provided in the `installation_files` folder.
 This can be done in two ways (either is fine):
 
-
-
 1. A `.whl` file (wheel file):
 ```bash
 	cd installation_files
