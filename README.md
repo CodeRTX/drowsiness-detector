@@ -69,7 +69,10 @@ Below is an image showcasing the drowsiness detection system in action:
 
 ## Limitations
 
-Everything works fine, as intended, with only one exception: while the hand is covering the face, the 'DROWSY' alert will show up, irrespective of whether the person is yawning or not.
+There are two known issues with the current system:
+
+1. While the hand is covering the face, the 'DROWSY' alert will show up irrespective of whether the person is yawning.
+2. The system’s working efficiency decreases under low-lighting conditions.
 
 ## Contributing
 
