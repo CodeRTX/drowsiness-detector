@@ -80,4 +80,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-This project is licensed under the APACHE 2.0 License.
+This project is licensed under the [APACHE 2.0 License](https://www.apache.org/licenses/LICENSE-2.0).
